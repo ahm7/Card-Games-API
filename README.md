@@ -18,8 +18,14 @@ update var mongoUrl with your database user name & password
 ```
 
 ``` bash
+# start the api server
 cd /main
 go run main.go
+```
+``` bash
+# to run tests
+cd /main/Test
+go test -v
 ```
 
 ## Endpoints
